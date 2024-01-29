@@ -1,0 +1,28 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.content
+{
+    margin-top: 75px;
+}
+
+@media screen and(max-width: 768px){
+    .body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+        }
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laba5</title>
+    <link rel="stylesheet" href="all_styles.css">
+</head>
+<body>
+    <h1>Список водіїв:</h1>
+
+    <form id="driver-form">
+        <label for="firstName">Ім'я:</label>
+        <input type="text" id="firstName" required>
+
+        <label for="secondName">Прізвище:</label>
+        <input type="text" id="secondName" required>
+
+        <label for="healthStatus">Статус здоров'я:</label>
+        <input type="text" id="healthStatus" required>
+
+        <button type="button" onclick="addDriver()">Додати водія</button>
+    </form>
+
+    <ul id="drivers-list"></ul>
+
+    <button type="button" onclick="refetchAllDrivers()">Обновити список водіїв</button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+h1 {
+    color: #333;
+}
+
+#helicopter-form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#helicopter-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.helicopter-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.edit-btn {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#total-passengers {
+    margin-top: 10px;
+}
+
+#searchText {
+    margin-bottom: 10px;
+}
+
+#searchButtons {
+    display: flex;
+}
+
+#searchButtons button {
+    margin-right: 10px;
+}
+

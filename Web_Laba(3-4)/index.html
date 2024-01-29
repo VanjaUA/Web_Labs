@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laba3_4</title>
+    <link rel="stylesheet" href="all_styles.css">
+</head>
+<body>
+    <h1>Список гелікоптерів:</h1>
+
+    <form id="helicopter-form">
+        <label for="name">Назва:</label>
+        <input type="text" id="name" required>
+
+        <label for="passengers">Кількість пасажирів:</label>
+        <input type="number" id="passengers" required>
+
+        <label for="speed">Максимальна швидкість:</label>
+        <input type="number" id="speed" required>
+
+        <button type="button" onclick="addHelicopter()">Додати гелікоптер</button>
+    </form>
+
+    <ul id="helicopter-list"></ul>
+
+    <button onclick="calculateTotalPassengers()">Загальна кількість пасажирів</button>
+    <div id="total-passengers"></div>
+    <button onclick="sortHelicoptersByPassengers()">Сортувати за кількістю пасажирів</button>
+
+
+    <input type="text" id="searchText" placeholder="Пошук за назвою">
+
+    <button type="button" onclick="searchHelicopters()">Пошук</button>
+    <button type="button" onclick="resetSearch()">Відмінити</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

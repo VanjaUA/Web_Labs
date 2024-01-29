@@ -1,0 +1,7 @@
+.dropdown{
+    width: 250px;
+}
+
+.dropdown:not(:last-child){
+    margin-right: 30px;
+}

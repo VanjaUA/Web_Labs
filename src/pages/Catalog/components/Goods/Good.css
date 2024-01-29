@@ -1,0 +1,30 @@
+.wrapper{
+    text-align: center;
+    width: 350px;
+    border: 1px solid #000;
+    padding: 30px;
+}
+.image{
+    width: 300px;
+    height: 350px;
+}
+.good__title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.good__text{
+    line-height: 1.5;
+    margin: 0 0 30px 0
+}
+.price__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+.price__section-title{
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}

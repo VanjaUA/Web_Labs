@@ -1,0 +1,23 @@
+.header__navbar{
+    width: 100%;
+}
+.header__items-list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 120px;
+}
+.header__link{
+    color: #808080;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 6px;
+    transition: all 0.3s ease;
+}
+
+.header__link:hover{
+    color: aqua;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
